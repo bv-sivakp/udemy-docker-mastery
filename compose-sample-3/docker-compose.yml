@@ -2,6 +2,7 @@ version: '2'
 
 # based off compose-sample-2, only we build nginx.conf into image
 # uses sample HTML static site from https://startbootstrap.com/themes/agency/
+# To remove the created images, you can use docker-compose down --rmi local
 
 services:
   proxy:
